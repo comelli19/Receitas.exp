@@ -1,0 +1,38 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+h2{
+    justify-content: end;
+    display: flex;
+    background-color: blueviolet;
+    margin: 0%;
+    padding: 1%;   
+}
+.Rodapé b{
+    display: flex;
+    justify-content: center;
+}
+
+.parte_de_baixo{
+background-color: aquamarine;
+margin: 0%; 
+padding: 1%; 
+}
+
+.MAPA h1{
+display: flex;
+justify-content: center;
+}
+
+.Cuca{
+    display: flex;
+}
+
+.CENOURA{ 
+    display: flex;
+}
+
+.pão{
+   display: flex; 
+}
