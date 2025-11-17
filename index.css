@@ -1,23 +1,19 @@
 body{
     margin: 0%;
     padding: 0%;
+    background-image: linear-gradient(to bottom right, rgb(131, 82, 18), rgb(31, 31, 19));
 }
-h2{
-    justify-content: end;
-    display: flex;
-    background-color: blueviolet;
-    margin: 0%;
-    padding: 1%;   
-}
+
 .Rodapé b{
     display: flex;
     justify-content: center;
 }
 
 .parte_de_baixo{
-background-color: aquamarine;
+background-color: rgb(255, 255, 255);
 margin: 0%; 
 padding: 1%; 
+opacity: 25%;
 }
 
 .MAPA h1{
@@ -35,4 +31,51 @@ justify-content: center;
 
 .pão{
    display: flex; 
+}
+
+.Brigadeiro{
+    display: flex; 
+}
+
+.hst{
+  font-family: Georgia, 'Times New Roman', Times, serif;  /*muda a fonte das letras*/
+}
+
+.barra {
+    background-color: #4b2e00;
+    padding: 15px 30px;
+    display: flex;              /* coloca tudo na MESMA linha */
+    align-items: center;        /* alinha verticalmente */
+    justify-content: space-between; /* joga menu para direita */
+}
+
+/* Título */
+.barra h2 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 26px;
+}
+
+/* MENU */
+.barra ul {
+    display: flex;
+    gap: 30px;            /* espaço entre itens */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.barra ul li {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(221, 218, 54);
+    cursor: pointer;
+}
+
+.chefes img{
+    display: flex;
+}
+
+.hst p{
+    color: aliceblue;
 }
